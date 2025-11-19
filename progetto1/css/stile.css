@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family: 'arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden ;
+    background-image: url("../immagini-p1/foto_gruppo_ferrari.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+       
+}
+
+
+
+header{
+    background-color: #b70000ea;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;     
+    padding-bottom: 4%;
+    text-align: center;
+    
+}
+
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 250%;
+    float: left;
+    margin-left: 7%;
+}
+
+
+nav{
+    padding: 0.5% 1% 0.5% 1%;
+    background-color: rgba(253, 215, 0, 0.911);
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: 70%;
+    top: 15px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3447f7;
+    text-decoration: underline;
+}
+
+header img#logo{
+    width: 12%;
+    height: auto;
+    float: left;
+    margin-left: -20%;
+    margin-top: -0.5%;
+}
+
+
+div{
+    margin: 5% 10% 5% 10%;
+    font-size: 120%;
+    text-align: justify;
+}
+div h2{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 200%;
+    color:rgb(253, 173, 0);
+    background-color: #333333c0;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(255, 25, 25);  
+    text-shadow: #e90000 2px 2px 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p{
+    line-height: 1.6;
+    padding: 15px;
+    background-color: #333333c0;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(255, 25, 25);
+    font-weight: 500;
+}
+
+
